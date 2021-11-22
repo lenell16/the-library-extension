@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@assets/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/assets/*"
+            ],
+            "@components/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/fullPage/components/*"
+            ],
+            "@pages/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/pages/*"
+            ],
+            "@relay/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/relay/*"
+            ],
+            "@/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/*"
+            ],
+            "@fullPage/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/fullPage/*"
+            ],
+            "@popup/*": [
+                "/Users/althomas/Developer/play/the-library-extension/src/popup/*"
+            ]
+        }
+    },
+    "include": [
+        "./src"
+    ]
+}
